@@ -1,0 +1,444 @@
+2025-08-25 01:29:34,647 | INFO | === Map VMP_AMP to BNF pipeline started ===
+2025-08-25 01:29:34,647 | INFO | Reading EPD_Processed_Data.csv
+2025-08-25 01:29:45,977 | INFO | Reading PCA_Processed_Data.csv
+2025-08-25 01:29:54,337 | INFO | Reading SCMD_Processed_Data.csv
+2025-08-25 01:29:59,633 | INFO | Total distinct VMP/AMP rows: 38,372
+2025-08-25 01:29:59,889 | INFO | Starting SNOMED→BNFCode mapping for 38,372 rows
+2025-08-25 01:29:59,889 | INFO | Found 29 mapping file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFSnomedMapping
+2025-08-25 01:29:59,890 | INFO | Processing mapping file: BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 01:30:15,696 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 01:30:15,697 | INFO | Processing mapping file: BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 01:30:31,565 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 01:30:31,566 | INFO | Processing mapping file: BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 01:30:47,316 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 01:30:47,317 | INFO | Processing mapping file: BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 01:31:03,180 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 01:31:03,180 | INFO | Processing mapping file: BNF Snomed Mapping data 20250319.xlsx
+2025-08-25 01:31:17,564 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 01:31:17,565 | INFO | Processing mapping file: BNF Snomed Mapping data 20250221.xlsx
+2025-08-25 01:31:31,922 | INFO |   -> Progress: 33,265/38,372 mapped (86.7%)
+2025-08-25 01:31:31,923 | INFO | Processing mapping file: BNF Snomed Mapping data 20250120.xlsx
+2025-08-25 01:31:46,186 | INFO |   -> Progress: 33,265/38,372 mapped (86.7%)
+2025-08-25 01:31:46,187 | INFO | Processing mapping file: BNF Snomed Mapping data 20241216.xlsx
+2025-08-25 01:32:00,523 | INFO |   -> Progress: 33,268/38,372 mapped (86.7%)
+2025-08-25 01:32:00,524 | INFO | Processing mapping file: BNF Snomed Mapping data 20241119.xlsx
+2025-08-25 01:32:14,627 | INFO |   -> Progress: 33,269/38,372 mapped (86.7%)
+2025-08-25 01:32:14,627 | INFO | Processing mapping file: BNF Snomed Mapping data 20241016.xlsx
+2025-08-25 01:32:28,716 | INFO |   -> Progress: 33,270/38,372 mapped (86.7%)
+2025-08-25 01:32:28,716 | INFO | Processing mapping file: BNF Snomed Mapping data 20240923.xlsx
+2025-08-25 01:32:56,568 | INFO |   -> Progress: 33,273/38,372 mapped (86.7%)
+2025-08-25 01:32:56,569 | INFO | Processing mapping file: BNF Snomed Mapping data 20240820.xlsx
+2025-08-25 01:33:24,306 | INFO |   -> Progress: 33,273/38,372 mapped (86.7%)
+2025-08-25 01:33:24,306 | INFO | Processing mapping file: BNF Snomed Mapping data 20240722.xlsx
+2025-08-25 01:33:38,243 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 01:33:38,243 | INFO | Processing mapping file: BNF Snomed Mapping data 20240620.xlsx
+2025-08-25 01:33:52,114 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 01:33:52,115 | INFO | Processing mapping file: BNF Snomed Mapping data 20240516.xlsx
+2025-08-25 01:34:06,019 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 01:34:06,020 | INFO | Processing mapping file: BNF Snomed Mapping data 20240423.xlsx
+2025-08-25 01:34:20,014 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 01:34:20,015 | INFO | Processing mapping file: BNF Snomed Mapping data 20240219.xlsx
+2025-08-25 01:34:36,463 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 01:34:36,464 | INFO | Processing mapping file: BNF Snomed Mapping data 20240321.xlsx
+2025-08-25 01:34:50,426 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 01:34:50,426 | INFO | Processing mapping file: BNF Snomed Mapping data 20240122.xlsx
+2025-08-25 01:35:06,605 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 01:35:06,605 | INFO | Processing mapping file: BNF Snomed Mapping data 20231215.xlsx
+2025-08-25 01:35:20,913 | INFO |   -> Progress: 33,279/38,372 mapped (86.7%)
+2025-08-25 01:35:20,914 | INFO | Processing mapping file: BNF Snomed Mapping data 20231117.xlsx
+2025-08-25 01:35:37,297 | INFO |   -> Progress: 33,460/38,372 mapped (87.2%)
+2025-08-25 01:35:37,298 | INFO | Processing mapping file: BNF Snomed Mapping data 20231017.xlsx
+2025-08-25 01:35:53,352 | INFO |   -> Progress: 33,732/38,372 mapped (87.9%)
+2025-08-25 01:35:53,353 | INFO | Processing mapping file: BNF Snomed Mapping data 20230919.xlsx
+2025-08-25 01:36:09,461 | INFO |   -> Progress: 33,932/38,372 mapped (88.4%)
+2025-08-25 01:36:09,462 | INFO | Processing mapping file: BNF Snomed Mapping data 20230818.xlsx
+2025-08-25 01:36:25,741 | INFO |   -> Progress: 34,236/38,372 mapped (89.2%)
+2025-08-25 01:36:25,742 | INFO | Processing mapping file: BNF Snomed Mapping data 20230719.xlsx
+2025-08-25 01:36:41,838 | INFO |   -> Progress: 34,527/38,372 mapped (90.0%)
+2025-08-25 01:36:41,839 | INFO | Processing mapping file: BNF Snomed Mapping data 20230622.xlsx
+2025-08-25 01:36:57,989 | INFO |   -> Progress: 34,858/38,372 mapped (90.8%)
+2025-08-25 01:36:57,991 | INFO | Processing mapping file: BNF Snomed Mapping data 20230522.xlsx
+2025-08-25 01:37:13,618 | INFO |   -> Progress: 34,860/38,372 mapped (90.8%)
+2025-08-25 01:37:13,619 | INFO | Processing mapping file: BNF Snomed Mapping data 20230322.xlsx
+2025-08-25 01:37:28,422 | INFO |   -> Progress: 34,860/38,372 mapped (90.8%)
+2025-08-25 01:37:28,422 | INFO | Processing mapping file: BNF Snomed Mapping data 20230420.xlsx
+2025-08-25 01:37:42,168 | INFO |   -> Progress: 34,860/38,372 mapped (90.8%)
+2025-08-25 01:37:42,169 | INFO | SNOMED→BNFCode mapping complete.
+2025-08-25 01:37:42,176 | INFO | SNOMED→BNFCode summary: 34,860/38,372 (90.8%)
+2025-08-25 01:37:42,179 | INFO | Starting BNF detail mapping for 38,372 rows (strict by BNF_PRESENTATION_CODE)
+2025-08-25 01:37:42,179 | INFO | Found 7 detail file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFCodeDetail
+2025-08-25 01:37:42,179 | INFO | Processing most recent detail file: bnf_code_current_202507_version_88.csv
+2025-08-25 01:37:42,437 | INFO |   -> Presentation details mapped: 0/38,372 (0.0%)
+2025-08-25 01:37:42,437 | INFO | BNF detail mapping complete.
+2025-08-25 01:37:42,455 | INFO | Missing BNFCode rows written to: /Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/Missing_VMP_AMPtoBNFCode.csv (3,512 rows)
+2025-08-25 01:37:45,116 | INFO | Dropping unmapped rows with rationale: Unmapped codes (e.g., bandages, OTC items) are often from SCMD and lack BNF mappings. This affects 3,512 unique VMP codes, corresponding to 613,373 total line(s) in the SCMD dataset.
+2025-08-25 01:37:45,125 | INFO | Dropped 3,512 unmapped row(s); 34,860 mapped rows remain.
+2025-08-25 01:37:45,344 | INFO | Successfully mapped data written to: /Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/VMP_AMP_to_BNF_Mapped.csv (34,860 rows)
+2025-08-25 01:37:45,344 | INFO | === Map VMP_AMP to BNF pipeline complete ===
+2025-08-25 03:49:58,724 | INFO | === Map VMP_AMP to BNF pipeline started ===
+2025-08-25 03:49:58,724 | INFO | Reading EPD_Processed_Data.csv
+2025-08-25 03:50:08,114 | INFO | Reading PCA_Processed_Data.csv
+2025-08-25 03:50:15,633 | INFO | Reading SCMD_Processed_Data.csv
+2025-08-25 03:50:20,664 | INFO | Total distinct VMP/AMP rows: 38,372
+2025-08-25 03:50:20,907 | INFO | Starting SNOMED→BNFCode mapping for 38,372 rows
+2025-08-25 03:50:20,907 | INFO | Found 32 mapping file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFSnomedMapping
+2025-08-25 03:50:20,908 | INFO | Processing mapping file: ~$BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 03:50:20,909 | WARNING |   -> Could not read ~$BNF Snomed Mapping data 20250718.xlsx: Excel file format cannot be determined, you must specify an engine manually.
+2025-08-25 03:50:20,983 | INFO |   -> Skipping: empty or missing required columns.
+2025-08-25 03:50:20,984 | INFO | Processing mapping file: ~$BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 03:50:20,984 | WARNING |   -> Could not read ~$BNF Snomed Mapping data 20250519.xlsx: Excel file format cannot be determined, you must specify an engine manually.
+2025-08-25 03:50:20,984 | INFO |   -> Skipping: empty or missing required columns.
+2025-08-25 03:50:20,985 | INFO | Processing mapping file: ~$BNF Snomed Mapping data 20230322.xlsx
+2025-08-25 03:50:20,986 | WARNING |   -> Could not read ~$BNF Snomed Mapping data 20230322.xlsx: Excel file format cannot be determined, you must specify an engine manually.
+2025-08-25 03:50:20,986 | INFO |   -> Skipping: empty or missing required columns.
+2025-08-25 03:50:20,986 | INFO | Processing mapping file: BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 03:50:36,039 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 03:50:36,040 | INFO | Processing mapping file: BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 03:50:51,532 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 03:50:51,533 | INFO | Processing mapping file: BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 03:51:06,664 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 03:51:06,664 | INFO | Processing mapping file: BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 03:51:21,857 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 03:51:21,858 | INFO | Processing mapping file: BNF Snomed Mapping data 20250319.xlsx
+2025-08-25 03:51:35,822 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 03:51:35,823 | INFO | Processing mapping file: BNF Snomed Mapping data 20250221.xlsx
+2025-08-25 03:51:49,830 | INFO |   -> Progress: 33,265/38,372 mapped (86.7%)
+2025-08-25 03:51:49,831 | INFO | Processing mapping file: BNF Snomed Mapping data 20250120.xlsx
+2025-08-25 03:52:03,803 | INFO |   -> Progress: 33,265/38,372 mapped (86.7%)
+2025-08-25 03:52:03,804 | INFO | Processing mapping file: BNF Snomed Mapping data 20241216.xlsx
+2025-08-25 03:52:17,747 | INFO |   -> Progress: 33,268/38,372 mapped (86.7%)
+2025-08-25 03:52:17,747 | INFO | Processing mapping file: BNF Snomed Mapping data 20241119.xlsx
+2025-08-25 03:52:31,453 | INFO |   -> Progress: 33,269/38,372 mapped (86.7%)
+2025-08-25 03:52:31,454 | INFO | Processing mapping file: BNF Snomed Mapping data 20241016.xlsx
+2025-08-25 03:52:45,213 | INFO |   -> Progress: 33,270/38,372 mapped (86.7%)
+2025-08-25 03:52:45,213 | INFO | Processing mapping file: BNF Snomed Mapping data 20240923.xlsx
+2025-08-25 03:53:12,664 | INFO |   -> Progress: 33,273/38,372 mapped (86.7%)
+2025-08-25 03:53:12,664 | INFO | Processing mapping file: BNF Snomed Mapping data 20240820.xlsx
+2025-08-25 03:53:39,705 | INFO |   -> Progress: 33,273/38,372 mapped (86.7%)
+2025-08-25 03:53:39,706 | INFO | Processing mapping file: BNF Snomed Mapping data 20240722.xlsx
+2025-08-25 03:53:53,398 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 03:53:53,398 | INFO | Processing mapping file: BNF Snomed Mapping data 20240620.xlsx
+2025-08-25 03:54:06,956 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 03:54:06,956 | INFO | Processing mapping file: BNF Snomed Mapping data 20240516.xlsx
+2025-08-25 03:54:20,568 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 03:54:20,569 | INFO | Processing mapping file: BNF Snomed Mapping data 20240423.xlsx
+2025-08-25 03:54:34,036 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 03:54:34,037 | INFO | Processing mapping file: BNF Snomed Mapping data 20240219.xlsx
+2025-08-25 03:54:49,999 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 03:54:49,999 | INFO | Processing mapping file: BNF Snomed Mapping data 20240321.xlsx
+2025-08-25 03:55:03,608 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 03:55:03,609 | INFO | Processing mapping file: BNF Snomed Mapping data 20240122.xlsx
+2025-08-25 03:55:19,387 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 03:55:19,389 | INFO | Processing mapping file: BNF Snomed Mapping data 20231215.xlsx
+2025-08-25 04:18:06,938 | INFO | === Map VMP_AMP to BNF pipeline started ===
+2025-08-25 04:18:06,939 | INFO | Reading EPD_Processed_Data.csv
+2025-08-25 04:18:16,276 | INFO | Reading PCA_Processed_Data.csv
+2025-08-25 04:18:23,423 | INFO | Reading SCMD_Processed_Data.csv
+2025-08-25 04:18:28,395 | INFO | Total distinct VMP/AMP rows: 38,372
+2025-08-25 04:18:28,616 | INFO | Starting SNOMED→BNFCode mapping for 38,372 rows
+2025-08-25 04:18:28,616 | INFO | Found 29 mapping file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFSnomedMapping
+2025-08-25 04:18:28,616 | INFO | Processing mapping file: BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 04:18:43,749 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 04:18:43,749 | INFO | Processing mapping file: BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 04:18:58,884 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 04:18:58,885 | INFO | Processing mapping file: BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 04:19:13,916 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 04:19:13,917 | INFO | Processing mapping file: BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 04:19:29,006 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 04:19:29,007 | INFO | Processing mapping file: BNF Snomed Mapping data 20250319.xlsx
+2025-08-25 04:19:42,936 | INFO |   -> Progress: 33,264/38,372 mapped (86.7%)
+2025-08-25 04:19:42,937 | INFO | Processing mapping file: BNF Snomed Mapping data 20250221.xlsx
+2025-08-25 04:19:56,886 | INFO |   -> Progress: 33,265/38,372 mapped (86.7%)
+2025-08-25 04:19:56,886 | INFO | Processing mapping file: BNF Snomed Mapping data 20250120.xlsx
+2025-08-25 04:20:10,747 | INFO |   -> Progress: 33,265/38,372 mapped (86.7%)
+2025-08-25 04:20:10,747 | INFO | Processing mapping file: BNF Snomed Mapping data 20241216.xlsx
+2025-08-25 04:20:24,916 | INFO |   -> Progress: 33,268/38,372 mapped (86.7%)
+2025-08-25 04:20:24,916 | INFO | Processing mapping file: BNF Snomed Mapping data 20241119.xlsx
+2025-08-25 04:20:38,583 | INFO |   -> Progress: 33,269/38,372 mapped (86.7%)
+2025-08-25 04:20:38,584 | INFO | Processing mapping file: BNF Snomed Mapping data 20241016.xlsx
+2025-08-25 04:20:52,234 | INFO |   -> Progress: 33,270/38,372 mapped (86.7%)
+2025-08-25 04:20:52,235 | INFO | Processing mapping file: BNF Snomed Mapping data 20240923.xlsx
+2025-08-25 04:21:19,630 | INFO |   -> Progress: 33,273/38,372 mapped (86.7%)
+2025-08-25 04:21:19,631 | INFO | Processing mapping file: BNF Snomed Mapping data 20240820.xlsx
+2025-08-25 04:21:46,894 | INFO |   -> Progress: 33,273/38,372 mapped (86.7%)
+2025-08-25 04:21:46,894 | INFO | Processing mapping file: BNF Snomed Mapping data 20240722.xlsx
+2025-08-25 04:22:00,484 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 04:22:00,484 | INFO | Processing mapping file: BNF Snomed Mapping data 20240620.xlsx
+2025-08-25 04:22:13,944 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 04:22:13,944 | INFO | Processing mapping file: BNF Snomed Mapping data 20240516.xlsx
+2025-08-25 04:22:27,426 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 04:22:27,427 | INFO | Processing mapping file: BNF Snomed Mapping data 20240423.xlsx
+2025-08-25 04:22:40,961 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 04:22:40,962 | INFO | Processing mapping file: BNF Snomed Mapping data 20240219.xlsx
+2025-08-25 04:22:56,875 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 04:22:56,876 | INFO | Processing mapping file: BNF Snomed Mapping data 20240321.xlsx
+2025-08-25 04:23:10,410 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 04:23:10,411 | INFO | Processing mapping file: BNF Snomed Mapping data 20240122.xlsx
+2025-08-25 04:23:26,117 | INFO |   -> Progress: 33,278/38,372 mapped (86.7%)
+2025-08-25 04:23:26,118 | INFO | Processing mapping file: BNF Snomed Mapping data 20231215.xlsx
+2025-08-25 04:23:39,977 | INFO |   -> Progress: 33,279/38,372 mapped (86.7%)
+2025-08-25 04:23:39,978 | INFO | Processing mapping file: BNF Snomed Mapping data 20231117.xlsx
+2025-08-25 04:23:55,699 | INFO |   -> Progress: 33,460/38,372 mapped (87.2%)
+2025-08-25 04:23:55,699 | INFO | Processing mapping file: BNF Snomed Mapping data 20231017.xlsx
+2025-08-25 04:24:11,373 | INFO |   -> Progress: 33,732/38,372 mapped (87.9%)
+2025-08-25 04:24:11,374 | INFO | Processing mapping file: BNF Snomed Mapping data 20230919.xlsx
+2025-08-25 04:24:27,037 | INFO |   -> Progress: 33,932/38,372 mapped (88.4%)
+2025-08-25 04:24:27,038 | INFO | Processing mapping file: BNF Snomed Mapping data 20230818.xlsx
+2025-08-25 04:24:42,869 | INFO |   -> Progress: 34,236/38,372 mapped (89.2%)
+2025-08-25 04:24:42,870 | INFO | Processing mapping file: BNF Snomed Mapping data 20230719.xlsx
+2025-08-25 04:24:58,567 | INFO |   -> Progress: 34,527/38,372 mapped (90.0%)
+2025-08-25 04:24:58,568 | INFO | Processing mapping file: BNF Snomed Mapping data 20230622.xlsx
+2025-08-25 04:25:14,261 | INFO |   -> Progress: 34,858/38,372 mapped (90.8%)
+2025-08-25 04:25:14,262 | INFO | Processing mapping file: BNF Snomed Mapping data 20230522.xlsx
+2025-08-25 04:25:29,422 | INFO |   -> Progress: 34,860/38,372 mapped (90.8%)
+2025-08-25 04:25:29,422 | INFO | Processing mapping file: BNF Snomed Mapping data 20230322.xlsx
+2025-08-25 04:25:43,779 | INFO |   -> Progress: 34,860/38,372 mapped (90.8%)
+2025-08-25 04:25:43,779 | INFO | Processing mapping file: BNF Snomed Mapping data 20230420.xlsx
+2025-08-25 04:25:57,044 | INFO |   -> Progress: 34,860/38,372 mapped (90.8%)
+2025-08-25 04:25:57,044 | INFO | SNOMED→BNFCode mapping complete.
+2025-08-25 04:25:57,049 | INFO | SNOMED→BNFCode summary: 34,860/38,372 (90.8%)
+2025-08-25 04:25:57,053 | INFO | Starting BNF detail mapping for 38,372 rows (strict by BNF_PRESENTATION_CODE)
+2025-08-25 04:25:57,053 | INFO | Found 7 detail file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFCodeDetail
+2025-08-25 04:25:57,053 | INFO | Processing most recent detail file: bnf_code_current_202507_version_88.csv
+2025-08-25 04:25:57,292 | INFO |   -> Presentation details mapped: 0/38,372 (0.0%)
+2025-08-25 04:25:57,292 | INFO | BNF detail mapping complete.
+2025-08-25 04:25:57,306 | INFO | Missing BNFCode rows written to: /Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/Missing_VMP_AMPtoBNFCode.csv (3,512 rows)
+2025-08-25 04:25:59,904 | INFO | Dropping unmapped rows with rationale: Unmapped codes (e.g., bandages, OTC items) are often from SCMD and lack BNF mappings. This affects 3,512 unique VMP codes, corresponding to 613,373 total line(s) in the SCMD dataset.
+2025-08-25 04:25:59,913 | INFO | Dropped 3,512 unmapped row(s); 34,860 mapped rows remain.
+2025-08-25 04:26:00,123 | INFO | Successfully mapped data written to: /Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/VMP_AMP_to_BNF_Mapped.csv (34,860 rows)
+2025-08-25 04:26:00,123 | INFO | === Map VMP_AMP to BNF pipeline complete ===
+2025-08-25 08:04:53,276 | INFO | === Map VMP_AMP to BNF pipeline started ===
+2025-08-25 08:04:53,276 | INFO | Reading EPD_Processed_Data.csv
+2025-08-25 08:04:58,361 | INFO | Reading PCA_Processed_Data.csv
+2025-08-25 08:05:05,766 | INFO | Reading SCMD_Processed_Data.csv
+2025-08-25 08:05:09,839 | INFO | Total distinct VMP/AMP rows: 33,206
+2025-08-25 08:05:10,020 | INFO | Starting SNOMED→BNFCode mapping for 33,206 rows
+2025-08-25 08:05:10,020 | INFO | Found 29 mapping file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFSnomedMapping
+2025-08-25 08:05:10,020 | INFO | Processing mapping file: BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 08:05:25,064 | INFO |   -> Progress: 33,186/33,206 mapped (99.9%)
+2025-08-25 08:05:25,065 | INFO | Processing mapping file: BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 08:05:40,258 | INFO |   -> Progress: 33,186/33,206 mapped (99.9%)
+2025-08-25 08:05:40,258 | INFO | Processing mapping file: BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 08:05:55,304 | INFO |   -> Progress: 33,186/33,206 mapped (99.9%)
+2025-08-25 08:05:55,304 | INFO | Processing mapping file: BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 08:06:10,353 | INFO |   -> Progress: 33,186/33,206 mapped (99.9%)
+2025-08-25 08:06:10,354 | INFO | Processing mapping file: BNF Snomed Mapping data 20250319.xlsx
+2025-08-25 08:06:24,265 | INFO |   -> Progress: 33,186/33,206 mapped (99.9%)
+2025-08-25 08:06:24,265 | INFO | Processing mapping file: BNF Snomed Mapping data 20250221.xlsx
+2025-08-25 08:06:38,284 | INFO |   -> Progress: 33,187/33,206 mapped (99.9%)
+2025-08-25 08:06:38,284 | INFO | Processing mapping file: BNF Snomed Mapping data 20250120.xlsx
+2025-08-25 08:06:52,187 | INFO |   -> Progress: 33,187/33,206 mapped (99.9%)
+2025-08-25 08:06:52,188 | INFO | Processing mapping file: BNF Snomed Mapping data 20241216.xlsx
+2025-08-25 08:07:06,184 | INFO |   -> Progress: 33,190/33,206 mapped (100.0%)
+2025-08-25 08:07:06,185 | INFO | Processing mapping file: BNF Snomed Mapping data 20241119.xlsx
+2025-08-25 08:07:19,806 | INFO |   -> Progress: 33,191/33,206 mapped (100.0%)
+2025-08-25 08:07:19,807 | INFO | Processing mapping file: BNF Snomed Mapping data 20241016.xlsx
+2025-08-25 08:07:33,422 | INFO |   -> Progress: 33,192/33,206 mapped (100.0%)
+2025-08-25 08:07:33,422 | INFO | Processing mapping file: BNF Snomed Mapping data 20240923.xlsx
+2025-08-25 08:08:00,677 | INFO |   -> Progress: 33,195/33,206 mapped (100.0%)
+2025-08-25 08:08:00,678 | INFO | Processing mapping file: BNF Snomed Mapping data 20240820.xlsx
+2025-08-25 08:08:27,882 | INFO |   -> Progress: 33,195/33,206 mapped (100.0%)
+2025-08-25 08:08:27,883 | INFO | Processing mapping file: BNF Snomed Mapping data 20240722.xlsx
+2025-08-25 08:08:41,440 | INFO |   -> Progress: 33,199/33,206 mapped (100.0%)
+2025-08-25 08:08:41,440 | INFO | Processing mapping file: BNF Snomed Mapping data 20240620.xlsx
+2025-08-25 08:08:54,947 | INFO |   -> Progress: 33,199/33,206 mapped (100.0%)
+2025-08-25 08:08:54,948 | INFO | Processing mapping file: BNF Snomed Mapping data 20240516.xlsx
+2025-08-25 08:09:08,469 | INFO |   -> Progress: 33,199/33,206 mapped (100.0%)
+2025-08-25 08:09:08,470 | INFO | Processing mapping file: BNF Snomed Mapping data 20240423.xlsx
+2025-08-25 08:09:22,028 | INFO |   -> Progress: 33,199/33,206 mapped (100.0%)
+2025-08-25 08:09:22,028 | INFO | Processing mapping file: BNF Snomed Mapping data 20240219.xlsx
+2025-08-25 08:09:37,922 | INFO |   -> Progress: 33,199/33,206 mapped (100.0%)
+2025-08-25 08:09:37,923 | INFO | Processing mapping file: BNF Snomed Mapping data 20240321.xlsx
+2025-08-25 08:09:51,500 | INFO |   -> Progress: 33,199/33,206 mapped (100.0%)
+2025-08-25 08:09:51,501 | INFO | Processing mapping file: BNF Snomed Mapping data 20240122.xlsx
+2025-08-25 08:10:07,358 | INFO |   -> Progress: 33,199/33,206 mapped (100.0%)
+2025-08-25 08:10:07,359 | INFO | Processing mapping file: BNF Snomed Mapping data 20231215.xlsx
+2025-08-25 08:10:21,283 | INFO |   -> Progress: 33,200/33,206 mapped (100.0%)
+2025-08-25 08:10:21,284 | INFO | Processing mapping file: BNF Snomed Mapping data 20231117.xlsx
+2025-08-25 08:10:37,143 | INFO |   -> Progress: 33,202/33,206 mapped (100.0%)
+2025-08-25 08:10:37,144 | INFO | Processing mapping file: BNF Snomed Mapping data 20231017.xlsx
+2025-08-25 08:10:52,940 | INFO |   -> Progress: 33,202/33,206 mapped (100.0%)
+2025-08-25 08:10:52,941 | INFO | Processing mapping file: BNF Snomed Mapping data 20230919.xlsx
+2025-08-25 08:11:08,713 | INFO |   -> Progress: 33,203/33,206 mapped (100.0%)
+2025-08-25 08:11:08,713 | INFO | Processing mapping file: BNF Snomed Mapping data 20230818.xlsx
+2025-08-25 08:11:24,578 | INFO |   -> Progress: 33,204/33,206 mapped (100.0%)
+2025-08-25 08:11:24,579 | INFO | Processing mapping file: BNF Snomed Mapping data 20230719.xlsx
+2025-08-25 08:11:40,308 | INFO |   -> Progress: 33,204/33,206 mapped (100.0%)
+2025-08-25 08:11:40,308 | INFO | Processing mapping file: BNF Snomed Mapping data 20230622.xlsx
+2025-08-25 08:11:56,157 | INFO |   -> Progress: 33,204/33,206 mapped (100.0%)
+2025-08-25 08:11:56,158 | INFO | Processing mapping file: BNF Snomed Mapping data 20230522.xlsx
+2025-08-25 08:12:11,451 | INFO |   -> Progress: 33,206/33,206 mapped (100.0%)
+2025-08-25 08:12:11,451 | INFO | All codes mapped; stopping early.
+2025-08-25 08:12:11,451 | INFO | SNOMED→BNFCode mapping complete.
+2025-08-25 08:12:11,457 | INFO | SNOMED→BNFCode summary: 33,206/33,206 (100.0%)
+2025-08-25 08:12:11,460 | INFO | Starting BNF detail mapping for 33,206 rows (strict by BNF_PRESENTATION_CODE)
+2025-08-25 08:12:11,460 | INFO | Found 7 detail file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFCodeDetail
+2025-08-25 08:12:11,460 | INFO | Processing most recent detail file: bnf_code_current_202507_version_88.csv
+2025-08-25 08:12:11,678 | INFO |   -> Presentation details mapped: 0/33,206 (0.0%)
+2025-08-25 08:12:11,678 | INFO | BNF detail mapping complete.
+2025-08-25 08:12:11,691 | INFO | Dropped 0 unmapped row(s); 33,206 mapped rows remain.
+2025-08-25 08:12:11,791 | INFO | Successfully mapped data written to: /Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/VMP_AMP_to_BNF_Mapped.csv (33,206 rows)
+2025-08-25 08:12:11,791 | INFO | === Map VMP_AMP to BNF pipeline complete ===
+2025-08-25 13:10:14,788 | INFO | === Map VMP_AMP to BNF pipeline started ===
+2025-08-25 13:10:14,788 | INFO | Reading EPD_Processed_Data.csv
+2025-08-25 13:10:14,791 | ERROR | File not found: /Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/EPD_Processed_Data.csv
+2025-08-25 13:10:14,791 | WARNING | Skipping empty or unreadable file: EPD_Processed_Data.csv
+2025-08-25 13:10:14,791 | INFO | Reading PCA_Processed_Data.csv
+2025-08-25 13:10:14,792 | ERROR | File not found: /Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/PCA_Processed_Data.csv
+2025-08-25 13:10:14,792 | WARNING | Skipping empty or unreadable file: PCA_Processed_Data.csv
+2025-08-25 13:10:14,792 | INFO | Reading SCMD_Processed_Data.csv
+2025-08-25 13:10:14,792 | ERROR | File not found: /Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/SCMD_Processed_Data.csv
+2025-08-25 13:10:14,792 | WARNING | Skipping empty or unreadable file: SCMD_Processed_Data.csv
+2025-08-25 13:10:14,792 | ERROR | No data loaded from input files. Exiting.
+2025-08-25 13:10:56,425 | INFO | === Map VMP_AMP to BNF pipeline started ===
+2025-08-25 13:10:56,425 | INFO | Reading EPD_Processed_Data.csv
+2025-08-25 13:10:59,642 | INFO | Reading PCA_Processed_Data.csv
+2025-08-25 13:11:01,529 | INFO | Reading SCMD_Processed_Data.csv
+2025-08-25 13:11:04,659 | INFO | Total distinct VMP/AMP rows: 9,318
+2025-08-25 13:11:04,791 | INFO | Starting SNOMED→BNFCode mapping for 9,318 rows
+2025-08-25 13:11:04,791 | INFO | Found 29 mapping file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFSnomedMapping
+2025-08-25 13:11:04,791 | INFO | Processing mapping file: BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 13:11:27,327 | INFO | === Map VMP_AMP to BNF pipeline started ===
+2025-08-25 13:11:27,327 | INFO | Reading EPD_Processed_Data.csv
+2025-08-25 13:11:30,441 | INFO | Reading PCA_Processed_Data.csv
+2025-08-25 13:11:32,307 | INFO | Reading SCMD_Processed_Data.csv
+2025-08-25 13:11:35,467 | INFO | Total distinct VMP/AMP rows: 9,318
+2025-08-25 13:11:35,600 | INFO | Starting SNOMED→BNFCode mapping for 9,318 rows
+2025-08-25 13:11:35,600 | INFO | Found 29 mapping file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFSnomedMapping
+2025-08-25 13:11:35,600 | INFO | Processing mapping file: BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 13:11:50,557 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:11:50,558 | INFO | Processing mapping file: BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 13:12:05,974 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:12:05,975 | INFO | Processing mapping file: BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 13:12:21,155 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:12:21,155 | INFO | Processing mapping file: BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 13:12:36,217 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:12:36,218 | INFO | Processing mapping file: BNF Snomed Mapping data 20250319.xlsx
+2025-08-25 13:12:50,184 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:12:50,184 | INFO | Processing mapping file: BNF Snomed Mapping data 20250221.xlsx
+2025-08-25 13:13:04,111 | INFO |   -> Progress: 9,306/9,318 mapped (99.9%)
+2025-08-25 13:13:04,111 | INFO | Processing mapping file: BNF Snomed Mapping data 20250120.xlsx
+2025-08-25 13:13:18,039 | INFO |   -> Progress: 9,306/9,318 mapped (99.9%)
+2025-08-25 13:13:18,039 | INFO | Processing mapping file: BNF Snomed Mapping data 20241216.xlsx
+2025-08-25 13:13:32,009 | INFO |   -> Progress: 9,308/9,318 mapped (99.9%)
+2025-08-25 13:13:32,009 | INFO | Processing mapping file: BNF Snomed Mapping data 20241119.xlsx
+2025-08-25 13:13:45,764 | INFO |   -> Progress: 9,308/9,318 mapped (99.9%)
+2025-08-25 13:13:45,764 | INFO | Processing mapping file: BNF Snomed Mapping data 20241016.xlsx
+2025-08-25 13:13:59,510 | INFO |   -> Progress: 9,309/9,318 mapped (99.9%)
+2025-08-25 13:13:59,510 | INFO | Processing mapping file: BNF Snomed Mapping data 20240923.xlsx
+2025-08-25 13:14:26,884 | INFO |   -> Progress: 9,310/9,318 mapped (99.9%)
+2025-08-25 13:14:26,884 | INFO | Processing mapping file: BNF Snomed Mapping data 20240820.xlsx
+2025-08-25 13:14:54,073 | INFO |   -> Progress: 9,310/9,318 mapped (99.9%)
+2025-08-25 13:14:54,073 | INFO | Processing mapping file: BNF Snomed Mapping data 20240722.xlsx
+2025-08-25 13:15:07,774 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:15:07,774 | INFO | Processing mapping file: BNF Snomed Mapping data 20240620.xlsx
+2025-08-25 13:15:21,351 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:15:21,351 | INFO | Processing mapping file: BNF Snomed Mapping data 20240516.xlsx
+2025-08-25 13:15:34,836 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:15:34,836 | INFO | Processing mapping file: BNF Snomed Mapping data 20240423.xlsx
+2025-08-25 13:15:48,251 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:15:48,251 | INFO | Processing mapping file: BNF Snomed Mapping data 20240219.xlsx
+2025-08-25 13:16:04,208 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:16:04,209 | INFO | Processing mapping file: BNF Snomed Mapping data 20240321.xlsx
+2025-08-25 13:16:17,781 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:16:17,781 | INFO | Processing mapping file: BNF Snomed Mapping data 20240122.xlsx
+2025-08-25 13:16:33,613 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:16:33,614 | INFO | Processing mapping file: BNF Snomed Mapping data 20231215.xlsx
+2025-08-25 13:16:47,545 | INFO |   -> Progress: 9,315/9,318 mapped (100.0%)
+2025-08-25 13:16:47,545 | INFO | Processing mapping file: BNF Snomed Mapping data 20231117.xlsx
+2025-08-25 13:17:03,393 | INFO |   -> Progress: 9,316/9,318 mapped (100.0%)
+2025-08-25 13:17:03,393 | INFO | Processing mapping file: BNF Snomed Mapping data 20231017.xlsx
+2025-08-25 13:17:19,237 | INFO |   -> Progress: 9,316/9,318 mapped (100.0%)
+2025-08-25 13:17:19,237 | INFO | Processing mapping file: BNF Snomed Mapping data 20230919.xlsx
+2025-08-25 13:17:34,983 | INFO |   -> Progress: 9,316/9,318 mapped (100.0%)
+2025-08-25 13:17:34,983 | INFO | Processing mapping file: BNF Snomed Mapping data 20230818.xlsx
+2025-08-25 13:17:50,836 | INFO |   -> Progress: 9,317/9,318 mapped (100.0%)
+2025-08-25 13:17:50,836 | INFO | Processing mapping file: BNF Snomed Mapping data 20230719.xlsx
+2025-08-25 13:18:06,597 | INFO |   -> Progress: 9,317/9,318 mapped (100.0%)
+2025-08-25 13:18:06,597 | INFO | Processing mapping file: BNF Snomed Mapping data 20230622.xlsx
+2025-08-25 13:18:22,327 | INFO |   -> Progress: 9,317/9,318 mapped (100.0%)
+2025-08-25 13:18:22,327 | INFO | Processing mapping file: BNF Snomed Mapping data 20230522.xlsx
+2025-08-25 13:18:37,488 | INFO |   -> Progress: 9,318/9,318 mapped (100.0%)
+2025-08-25 13:18:37,488 | INFO | All codes mapped; stopping early.
+2025-08-25 13:18:37,488 | INFO | SNOMED→BNFCode mapping complete.
+2025-08-25 13:18:37,493 | INFO | SNOMED→BNFCode summary: 9,318/9,318 (100.0%)
+2025-08-25 13:18:37,496 | INFO | Starting BNF detail mapping for 9,318 rows (strict by BNF_PRESENTATION_CODE)
+2025-08-25 13:18:37,496 | INFO | Found 7 detail file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFCodeDetail
+2025-08-25 13:18:37,496 | INFO | Processing most recent detail file: bnf_code_current_202507_version_88.csv
+2025-08-25 13:18:37,658 | INFO |   -> Presentation details mapped: 0/9,318 (0.0%)
+2025-08-25 13:18:37,659 | INFO | BNF detail mapping complete.
+2025-08-25 13:18:37,667 | INFO | Dropped 0 unmapped row(s); 9,318 mapped rows remain.
+2025-08-25 13:18:37,697 | INFO | Successfully mapped data written to: /Users/arunkumarbalaraman/uk_drug_shoratages/ProcessedData/VMP_AMP_to_BNF_Mapped.csv (9,318 rows)
+2025-08-25 13:18:37,697 | INFO | === Map VMP_AMP to BNF pipeline complete ===
+2025-08-25 13:20:55,229 | INFO | === Map VMP_AMP to BNF pipeline started ===
+2025-08-25 13:20:55,229 | INFO | Reading EPD_Processed_Data.csv
+2025-08-25 13:20:58,532 | INFO | Reading PCA_Processed_Data.csv
+2025-08-25 13:21:00,420 | INFO | Reading SCMD_Processed_Data.csv
+2025-08-25 13:21:03,573 | INFO | Total distinct VMP/AMP rows: 9,318
+2025-08-25 13:21:03,726 | INFO | Starting SNOMED→BNFCode mapping for 9,318 rows
+2025-08-25 13:21:03,726 | INFO | Found 29 mapping file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFSnomedMapping
+2025-08-25 13:21:03,727 | INFO | Processing mapping file: BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 13:21:18,765 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:21:18,765 | INFO | Processing mapping file: BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 13:21:33,893 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:21:33,893 | INFO | Processing mapping file: BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 13:21:48,922 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:21:48,922 | INFO | Processing mapping file: BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 13:22:04,016 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:22:04,016 | INFO | Processing mapping file: BNF Snomed Mapping data 20250319.xlsx
+2025-08-25 13:22:17,898 | INFO |   -> Progress: 9,305/9,318 mapped (99.9%)
+2025-08-25 13:22:17,898 | INFO | Processing mapping file: BNF Snomed Mapping data 20250221.xlsx
+2025-08-25 13:22:31,777 | INFO |   -> Progress: 9,306/9,318 mapped (99.9%)
+2025-08-25 13:22:31,777 | INFO | Processing mapping file: BNF Snomed Mapping data 20250120.xlsx
+2025-08-25 13:22:45,728 | INFO |   -> Progress: 9,306/9,318 mapped (99.9%)
+2025-08-25 13:22:45,728 | INFO | Processing mapping file: BNF Snomed Mapping data 20241216.xlsx
+2025-08-25 13:22:59,756 | INFO |   -> Progress: 9,308/9,318 mapped (99.9%)
+2025-08-25 13:22:59,756 | INFO | Processing mapping file: BNF Snomed Mapping data 20241119.xlsx
+2025-08-25 13:23:13,448 | INFO |   -> Progress: 9,308/9,318 mapped (99.9%)
+2025-08-25 13:23:13,449 | INFO | Processing mapping file: BNF Snomed Mapping data 20241016.xlsx
+2025-08-25 13:23:27,177 | INFO |   -> Progress: 9,309/9,318 mapped (99.9%)
+2025-08-25 13:23:27,177 | INFO | Processing mapping file: BNF Snomed Mapping data 20240923.xlsx
+2025-08-25 13:23:54,453 | INFO |   -> Progress: 9,310/9,318 mapped (99.9%)
+2025-08-25 13:23:54,453 | INFO | Processing mapping file: BNF Snomed Mapping data 20240820.xlsx
+2025-08-25 13:24:21,635 | INFO |   -> Progress: 9,310/9,318 mapped (99.9%)
+2025-08-25 13:24:21,636 | INFO | Processing mapping file: BNF Snomed Mapping data 20240722.xlsx
+2025-08-25 13:24:35,248 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:24:35,248 | INFO | Processing mapping file: BNF Snomed Mapping data 20240620.xlsx
+2025-08-25 13:24:48,790 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:24:48,790 | INFO | Processing mapping file: BNF Snomed Mapping data 20240516.xlsx
+2025-08-25 13:25:02,224 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:25:02,224 | INFO | Processing mapping file: BNF Snomed Mapping data 20240423.xlsx
+2025-08-25 13:25:15,729 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:25:15,729 | INFO | Processing mapping file: BNF Snomed Mapping data 20240219.xlsx
+2025-08-25 13:25:31,782 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:25:31,783 | INFO | Processing mapping file: BNF Snomed Mapping data 20240321.xlsx
+2025-08-25 13:25:45,434 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:25:45,434 | INFO | Processing mapping file: BNF Snomed Mapping data 20240122.xlsx
+2025-08-25 13:26:01,339 | INFO |   -> Progress: 9,314/9,318 mapped (100.0%)
+2025-08-25 13:26:01,339 | INFO | Processing mapping file: BNF Snomed Mapping data 20231215.xlsx
+2025-08-25 13:26:15,297 | INFO |   -> Progress: 9,315/9,318 mapped (100.0%)
+2025-08-25 13:26:15,298 | INFO | Processing mapping file: BNF Snomed Mapping data 20231117.xlsx
+2025-08-25 13:26:31,142 | INFO |   -> Progress: 9,316/9,318 mapped (100.0%)
+2025-08-25 13:26:31,142 | INFO | Processing mapping file: BNF Snomed Mapping data 20231017.xlsx
+2025-08-25 13:26:46,902 | INFO |   -> Progress: 9,316/9,318 mapped (100.0%)
+2025-08-25 13:26:46,903 | INFO | Processing mapping file: BNF Snomed Mapping data 20230919.xlsx
+2025-08-25 13:27:02,635 | INFO |   -> Progress: 9,316/9,318 mapped (100.0%)
+2025-08-25 13:27:02,635 | INFO | Processing mapping file: BNF Snomed Mapping data 20230818.xlsx
+2025-08-25 13:27:18,407 | INFO |   -> Progress: 9,317/9,318 mapped (100.0%)
+2025-08-25 13:27:18,407 | INFO | Processing mapping file: BNF Snomed Mapping data 20230719.xlsx
+2025-08-25 13:27:34,091 | INFO |   -> Progress: 9,317/9,318 mapped (100.0%)
+2025-08-25 13:27:34,092 | INFO | Processing mapping file: BNF Snomed Mapping data 20230622.xlsx
+2025-08-25 13:27:49,859 | INFO |   -> Progress: 9,317/9,318 mapped (100.0%)
+2025-08-25 13:27:49,859 | INFO | Processing mapping file: BNF Snomed Mapping data 20230522.xlsx
+2025-08-25 13:28:05,101 | INFO |   -> Progress: 9,318/9,318 mapped (100.0%)
+2025-08-25 13:28:05,101 | INFO | All codes mapped; stopping early.
+2025-08-25 13:28:05,101 | INFO | SNOMED→BNFCode mapping complete.
+2025-08-25 13:28:05,106 | INFO | SNOMED→BNFCode summary: 9,318/9,318 (100.0%)
+2025-08-25 13:28:05,107 | INFO | Starting BNF detail mapping for 9,318 rows (strict by BNF_PRESENTATION_CODE)
+2025-08-25 13:28:05,107 | INFO | Found 7 detail file(s) in /Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFCodeDetail
+2025-08-25 13:28:05,107 | INFO | Processing most recent detail file: bnf_code_current_202507_version_88.csv
+2025-08-25 13:28:05,271 | INFO |   -> Presentation details mapped: 0/9,318 (0.0%)
+2025-08-25 13:28:05,272 | INFO | BNF detail mapping complete.
+2025-08-25 13:28:05,279 | INFO | Dropped 0 unmapped row(s); 9,318 mapped rows remain.
+2025-08-25 13:28:05,309 | INFO | Successfully mapped data written to: /Users/arunkumarbalaraman/uk_drug_shoratages/ProcessedData/VMP_AMP_to_BNF_Mapped.csv (9,318 rows)
+2025-08-25 13:28:05,309 | INFO | === Map VMP_AMP to BNF pipeline complete ===

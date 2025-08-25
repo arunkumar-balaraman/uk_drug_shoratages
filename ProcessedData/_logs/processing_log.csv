@@ -1,0 +1,4 @@
+run_id,dataset,period_lo,period_hi,total_input_rows,aggregated_rows,csv_output,parquet_output
+20250824_232907,PCA,202301,202505,16107892,9620426,/Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/PCA_202301_202505_agg.csv,/Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/PCA_202301_202505_agg.parquet
+20250824_233053,EPD,202301,202505,518831418,11464404,/Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/EPD_202301_202505_agg.csv,/Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/EPD_202301_202505_agg.parquet
+20250825_000331,SCMD,202301,202505,9027957,9027957,/Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/SCMD_202301_202505_agg.csv,/Users/arunkumarbalaraman/uk_drug_shoratages/InterimData/SCMD_202301_202505_agg.parquet

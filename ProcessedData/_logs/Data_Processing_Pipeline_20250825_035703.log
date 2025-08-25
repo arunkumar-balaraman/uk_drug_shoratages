@@ -1,0 +1,14 @@
+2025-08-25 03:57:03,858 - INFO - === Pipeline Run Started ===
+2025-08-25 03:57:03,858 - INFO - --- Starting processing for EPD ---
+2025-08-25 03:57:09,522 - INFO - Loaded 11,464,404 rows from EPD_202301_202505_agg.csv.
+2025-08-25 03:57:09,523 - INFO - Discovered 32 mapping files (newest to oldest).
+2025-08-25 03:57:10,483 - INFO - Pass 1: attempting to map 29,906 missing codes using ~$BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 03:57:10,484 - ERROR - Failed to read ~$BNF Snomed Mapping data 20250718.xlsx: Excel file format cannot be determined, you must specify an engine manually.
+2025-08-25 03:57:10,788 - INFO - Pass 2: attempting to map 29,906 missing codes using BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 03:57:33,047 - INFO - Filled 29,750 new mappings.
+2025-08-25 03:57:33,227 - INFO - Pass 3: attempting to map 156 missing codes using BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 03:57:48,581 - INFO - Pass 4: attempting to map 156 missing codes using ~$BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 03:57:48,581 - ERROR - Failed to read ~$BNF Snomed Mapping data 20250519.xlsx: [Errno 2] No such file or directory: '/Users/arunkumarbalaraman/uk_drug_shoratages/SourceData/BNFSnomedMapping/~$BNF Snomed Mapping data 20250519.xlsx'
+2025-08-25 03:57:48,751 - INFO - Pass 5: attempting to map 156 missing codes using BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 03:58:04,043 - INFO - Pass 6: attempting to map 156 missing codes using BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 03:58:19,365 - INFO - Pass 7: attempting to map 156 missing codes using BNF Snomed Mapping data 20250319.xlsx

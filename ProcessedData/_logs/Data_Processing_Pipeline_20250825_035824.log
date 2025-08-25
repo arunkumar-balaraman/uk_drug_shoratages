@@ -1,0 +1,112 @@
+2025-08-25 03:58:24,349 - INFO - === Pipeline Run Started ===
+2025-08-25 03:58:24,349 - INFO - --- Starting processing for EPD ---
+2025-08-25 03:58:30,062 - INFO - Loaded 11,464,404 rows from EPD_202301_202505_agg.csv.
+2025-08-25 03:58:30,062 - INFO - Discovered 29 mapping files (newest to oldest).
+2025-08-25 03:58:31,005 - INFO - Pass 1: attempting to map 29,906 missing codes using BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 03:58:48,617 - INFO - Filled 29,750 new mappings.
+2025-08-25 03:58:48,793 - INFO - Pass 2: attempting to map 156 missing codes using BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 03:59:04,136 - INFO - Pass 3: attempting to map 156 missing codes using BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 03:59:19,418 - INFO - Pass 4: attempting to map 156 missing codes using BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 03:59:34,701 - INFO - Pass 5: attempting to map 156 missing codes using BNF Snomed Mapping data 20250319.xlsx
+2025-08-25 03:59:48,768 - INFO - Pass 6: attempting to map 156 missing codes using BNF Snomed Mapping data 20250221.xlsx
+2025-08-25 04:00:05,173 - INFO - Filled 70 new mappings.
+2025-08-25 04:00:05,344 - INFO - Pass 7: attempting to map 86 missing codes using BNF Snomed Mapping data 20250120.xlsx
+2025-08-25 04:00:21,499 - INFO - Filled 1 new mappings.
+2025-08-25 04:00:21,669 - INFO - Pass 8: attempting to map 85 missing codes using BNF Snomed Mapping data 20241216.xlsx
+2025-08-25 04:00:37,791 - INFO - Filled 1 new mappings.
+2025-08-25 04:00:37,962 - INFO - Pass 9: attempting to map 84 missing codes using BNF Snomed Mapping data 20241119.xlsx
+2025-08-25 04:00:53,850 - INFO - Filled 1 new mappings.
+2025-08-25 04:00:54,027 - INFO - Pass 10: attempting to map 83 missing codes using BNF Snomed Mapping data 20241016.xlsx
+2025-08-25 04:01:10,064 - INFO - Filled 6 new mappings.
+2025-08-25 04:01:10,238 - INFO - Pass 11: attempting to map 77 missing codes using BNF Snomed Mapping data 20240923.xlsx
+2025-08-25 04:01:40,095 - INFO - Filled 2 new mappings.
+2025-08-25 04:01:40,268 - INFO - Pass 12: attempting to map 75 missing codes using BNF Snomed Mapping data 20240820.xlsx
+2025-08-25 04:02:07,610 - INFO - Pass 13: attempting to map 75 missing codes using BNF Snomed Mapping data 20240722.xlsx
+2025-08-25 04:02:23,592 - INFO - Filled 4 new mappings.
+2025-08-25 04:02:23,768 - INFO - Pass 14: attempting to map 71 missing codes using BNF Snomed Mapping data 20240620.xlsx
+2025-08-25 04:02:37,385 - INFO - Pass 15: attempting to map 71 missing codes using BNF Snomed Mapping data 20240516.xlsx
+2025-08-25 04:02:50,930 - INFO - Pass 16: attempting to map 71 missing codes using BNF Snomed Mapping data 20240423.xlsx
+2025-08-25 04:03:04,520 - INFO - Pass 17: attempting to map 71 missing codes using BNF Snomed Mapping data 20240321.xlsx
+2025-08-25 04:03:18,311 - INFO - Pass 18: attempting to map 71 missing codes using BNF Snomed Mapping data 20240219.xlsx
+2025-08-25 04:03:36,691 - INFO - Filled 62 new mappings.
+2025-08-25 04:03:36,863 - INFO - Pass 19: attempting to map 9 missing codes using BNF Snomed Mapping data 20240122.xlsx
+2025-08-25 04:03:55,079 - INFO - Filled 3 new mappings.
+2025-08-25 04:03:55,256 - INFO - Pass 20: attempting to map 6 missing codes using BNF Snomed Mapping data 20231215.xlsx
+2025-08-25 04:04:09,157 - INFO - Pass 21: attempting to map 6 missing codes using BNF Snomed Mapping data 20231117.xlsx
+2025-08-25 04:04:27,346 - INFO - Filled 2 new mappings.
+2025-08-25 04:04:27,525 - INFO - Pass 22: attempting to map 4 missing codes using BNF Snomed Mapping data 20231017.xlsx
+2025-08-25 04:04:43,302 - INFO - Pass 23: attempting to map 4 missing codes using BNF Snomed Mapping data 20230919.xlsx
+2025-08-25 04:04:59,018 - INFO - Pass 24: attempting to map 4 missing codes using BNF Snomed Mapping data 20230818.xlsx
+2025-08-25 04:05:14,889 - INFO - Pass 25: attempting to map 4 missing codes using BNF Snomed Mapping data 20230719.xlsx
+2025-08-25 04:05:30,775 - INFO - Pass 26: attempting to map 4 missing codes using BNF Snomed Mapping data 20230622.xlsx
+2025-08-25 04:05:46,584 - INFO - Pass 27: attempting to map 4 missing codes using BNF Snomed Mapping data 20230522.xlsx
+2025-08-25 04:06:04,175 - INFO - Filled 1 new mappings.
+2025-08-25 04:06:04,351 - INFO - Pass 28: attempting to map 3 missing codes using BNF Snomed Mapping data 20230420.xlsx
+2025-08-25 04:06:17,789 - INFO - Pass 29: attempting to map 3 missing codes using BNF Snomed Mapping data 20230322.xlsx
+2025-08-25 04:06:32,668 - INFO - Saving 3,733 unmapped records to EPD_Ignored_Records.csv
+2025-08-25 04:06:32,681 - INFO - Dropping columns before aggregation: ['BNF_CODE', 'ADQUSAGE']
+2025-08-25 04:06:33,193 - INFO - Grouping by 7 columns for final aggregation.
+2025-08-25 04:06:38,704 - INFO - Aggregation complete -> 11,459,701 final rows.
+2025-08-25 04:06:38,817 - INFO - Writing 11,459,701 processed rows to EPD_Processed_Data.csv
+2025-08-25 04:07:04,882 - INFO - --- Finished processing for EPD ---
+
+2025-08-25 04:07:05,415 - INFO - --- Starting processing for PCA ---
+2025-08-25 04:07:10,195 - INFO - Loaded 9,620,426 rows from PCA_202301_202505_agg.csv.
+2025-08-25 04:07:10,195 - INFO - Discovered 29 mapping files (newest to oldest).
+2025-08-25 04:07:10,946 - INFO - Pass 1: attempting to map 28,842 missing codes using BNF Snomed Mapping data 20250718.xlsx
+2025-08-25 04:07:28,158 - INFO - Filled 28,695 new mappings.
+2025-08-25 04:07:28,313 - INFO - Pass 2: attempting to map 147 missing codes using BNF Snomed Mapping data 20250618.xlsx
+2025-08-25 04:07:43,649 - INFO - Pass 3: attempting to map 147 missing codes using BNF Snomed Mapping data 20250519.xlsx
+2025-08-25 04:07:58,988 - INFO - Pass 4: attempting to map 147 missing codes using BNF Snomed Mapping data 20250417.xlsx
+2025-08-25 04:08:14,304 - INFO - Pass 5: attempting to map 147 missing codes using BNF Snomed Mapping data 20250319.xlsx
+2025-08-25 04:08:28,373 - INFO - Pass 6: attempting to map 147 missing codes using BNF Snomed Mapping data 20250221.xlsx
+2025-08-25 04:08:44,334 - INFO - Filled 65 new mappings.
+2025-08-25 04:08:44,485 - INFO - Pass 7: attempting to map 82 missing codes using BNF Snomed Mapping data 20250120.xlsx
+2025-08-25 04:09:00,385 - INFO - Filled 1 new mappings.
+2025-08-25 04:09:00,535 - INFO - Pass 8: attempting to map 81 missing codes using BNF Snomed Mapping data 20241216.xlsx
+2025-08-25 04:09:16,359 - INFO - Filled 1 new mappings.
+2025-08-25 04:09:16,512 - INFO - Pass 9: attempting to map 80 missing codes using BNF Snomed Mapping data 20241119.xlsx
+2025-08-25 04:09:32,152 - INFO - Filled 1 new mappings.
+2025-08-25 04:09:32,300 - INFO - Pass 10: attempting to map 79 missing codes using BNF Snomed Mapping data 20241016.xlsx
+2025-08-25 04:09:48,092 - INFO - Filled 6 new mappings.
+2025-08-25 04:09:48,246 - INFO - Pass 11: attempting to map 73 missing codes using BNF Snomed Mapping data 20240923.xlsx
+2025-08-25 04:10:17,646 - INFO - Filled 2 new mappings.
+2025-08-25 04:10:17,805 - INFO - Pass 12: attempting to map 71 missing codes using BNF Snomed Mapping data 20240820.xlsx
+2025-08-25 04:10:45,348 - INFO - Pass 13: attempting to map 71 missing codes using BNF Snomed Mapping data 20240722.xlsx
+2025-08-25 04:10:59,054 - INFO - Pass 14: attempting to map 71 missing codes using BNF Snomed Mapping data 20240620.xlsx
+2025-08-25 04:11:12,762 - INFO - Pass 15: attempting to map 71 missing codes using BNF Snomed Mapping data 20240516.xlsx
+2025-08-25 04:11:26,413 - INFO - Pass 16: attempting to map 71 missing codes using BNF Snomed Mapping data 20240423.xlsx
+2025-08-25 04:11:40,012 - INFO - Pass 17: attempting to map 71 missing codes using BNF Snomed Mapping data 20240321.xlsx
+2025-08-25 04:11:53,602 - INFO - Pass 18: attempting to map 71 missing codes using BNF Snomed Mapping data 20240219.xlsx
+2025-08-25 04:12:11,631 - INFO - Filled 62 new mappings.
+2025-08-25 04:12:11,786 - INFO - Pass 19: attempting to map 9 missing codes using BNF Snomed Mapping data 20240122.xlsx
+2025-08-25 04:12:29,773 - INFO - Filled 3 new mappings.
+2025-08-25 04:12:29,931 - INFO - Pass 20: attempting to map 6 missing codes using BNF Snomed Mapping data 20231215.xlsx
+2025-08-25 04:12:44,149 - INFO - Pass 21: attempting to map 6 missing codes using BNF Snomed Mapping data 20231117.xlsx
+2025-08-25 04:13:01,977 - INFO - Filled 1 new mappings.
+2025-08-25 04:13:02,127 - INFO - Pass 22: attempting to map 5 missing codes using BNF Snomed Mapping data 20231017.xlsx
+2025-08-25 04:13:17,970 - INFO - Pass 23: attempting to map 5 missing codes using BNF Snomed Mapping data 20230919.xlsx
+2025-08-25 04:13:35,588 - INFO - Filled 1 new mappings.
+2025-08-25 04:13:35,741 - INFO - Pass 24: attempting to map 4 missing codes using BNF Snomed Mapping data 20230818.xlsx
+2025-08-25 04:13:51,675 - INFO - Pass 25: attempting to map 4 missing codes using BNF Snomed Mapping data 20230719.xlsx
+2025-08-25 04:14:07,514 - INFO - Pass 26: attempting to map 4 missing codes using BNF Snomed Mapping data 20230622.xlsx
+2025-08-25 04:14:23,256 - INFO - Pass 27: attempting to map 4 missing codes using BNF Snomed Mapping data 20230522.xlsx
+2025-08-25 04:14:40,493 - INFO - Filled 1 new mappings.
+2025-08-25 04:14:40,651 - INFO - Pass 28: attempting to map 3 missing codes using BNF Snomed Mapping data 20230420.xlsx
+2025-08-25 04:14:54,066 - INFO - Pass 29: attempting to map 3 missing codes using BNF Snomed Mapping data 20230322.xlsx
+2025-08-25 04:15:08,897 - INFO - Saving 3,528 unmapped records to PCA_Ignored_Records.csv
+2025-08-25 04:15:08,909 - INFO - Dropping columns before aggregation: ['BNF_CODE', 'ADQUSAGE']
+2025-08-25 04:15:09,245 - INFO - Grouping by 7 columns for final aggregation.
+2025-08-25 04:15:13,938 - INFO - Aggregation complete -> 9,615,981 final rows.
+2025-08-25 04:15:14,055 - INFO - Writing 9,615,981 processed rows to PCA_Processed_Data.csv
+2025-08-25 04:15:34,396 - INFO - --- Finished processing for PCA ---
+
+2025-08-25 04:15:34,861 - INFO - --- Starting processing for SCMD ---
+2025-08-25 04:15:38,014 - INFO - Loaded 9,027,957 SCMD rows.
+2025-08-25 04:15:52,496 - INFO - Dropping columns before aggregation: ['ODS_CODE', 'ADQUSAGE']
+2025-08-25 04:15:57,706 - INFO - Grouping by 7 columns for final aggregation.
+2025-08-25 04:16:01,016 - INFO - Aggregation complete -> 4,102,266 final rows.
+2025-08-25 04:16:01,306 - INFO - Writing 4,102,266 processed SCMD rows to SCMD_Processed_Data.csv
+2025-08-25 04:16:09,549 - INFO - --- Finished processing for SCMD ---
+
+2025-08-25 04:16:10,677 - INFO - === Pipeline Run Finished Successfully ===

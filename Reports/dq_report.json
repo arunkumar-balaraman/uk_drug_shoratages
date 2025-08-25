@@ -1,0 +1,833 @@
+{
+  "epd": {
+    "shape": {
+      "rows": 3697809,
+      "cols": 13
+    },
+    "memory_mb": 1297.54,
+    "expected_columns_missing": [],
+    "dtypes_summary": {
+      "object": 5,
+      "float64": 5,
+      "int64": 3
+    },
+    "missing_values": {},
+    "missing_pct": {},
+    "duplicate_report": {
+      "row_duplicates": 0,
+      "key_present": true,
+      "key_duplicate_rows": 0,
+      "key_unique_ok": true
+    },
+    "datetime_parse": {
+      "YEAR_MONTH": {
+        "present": true,
+        "parsed_ok_pct": 100.0,
+        "bad_examples": []
+      }
+    },
+    "non_negative": {
+      "QUANTITY": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 4,
+        "nan_count": 0
+      },
+      "ITEMS": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 0,
+        "nan_count": 0
+      },
+      "TOTAL_QUANTITY": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 4,
+        "nan_count": 0
+      },
+      "NIC": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 49,
+        "nan_count": 0
+      },
+      "ACTUAL_COST": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 41,
+        "nan_count": 0
+      }
+    },
+    "categorical_rules": {
+      "VMP_AMP_TYPE": {
+        "present": true,
+        "unique_count": 1,
+        "unknown_values": [],
+        "unknown_count": 0
+      },
+      "GenericShortage": {
+        "present": true,
+        "unique_count": 2,
+        "unknown_values": [],
+        "unknown_count": 0
+      }
+    },
+    "numeric_profile": {
+      "YEAR_MONTH": {
+        "min": 202301.0,
+        "p25": 202308.0,
+        "median": 202403.0,
+        "p75": 202410.0,
+        "max": 202505.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": 202155.0,
+          "upper_bound": 202563.0
+        }
+      },
+      "VMP_AMP": {
+        "min": 72171000001103.0,
+        "p25": 2.0065611000001108e+16,
+        "median": 3.90223110000011e+16,
+        "p75": 4.20406110000011e+16,
+        "max": 4.51947110000011e+16,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": -1.2896888999998884e+16,
+          "upper_bound": 7.500311100000109e+16
+        }
+      },
+      "QUANTITY": {
+        "min": 0.0,
+        "p25": 125.0,
+        "median": 742.0,
+        "p75": 4447.0,
+        "max": 4000000.0,
+        "iqr_outliers": {
+          "count": 509160,
+          "pct": 13.769,
+          "lower_bound": -6358.0,
+          "upper_bound": 10930.0
+        }
+      },
+      "ITEMS": {
+        "min": 1.0,
+        "p25": 4.0,
+        "median": 21.0,
+        "p75": 150.0,
+        "max": 246401.0,
+        "iqr_outliers": {
+          "count": 595467,
+          "pct": 16.103,
+          "lower_bound": -215.0,
+          "upper_bound": 369.0
+        }
+      },
+      "TOTAL_QUANTITY": {
+        "min": 0.0,
+        "p25": 160.0,
+        "median": 980.0,
+        "p75": 7230.0,
+        "max": 15688292.0,
+        "iqr_outliers": {
+          "count": 598012,
+          "pct": 16.172,
+          "lower_bound": -10445.0,
+          "upper_bound": 17835.0
+        }
+      },
+      "NIC": {
+        "min": 0.0,
+        "p25": 112.0,
+        "median": 515.99,
+        "p75": 2175.35,
+        "max": 3159243.0,
+        "iqr_outliers": {
+          "count": 478031,
+          "pct": 12.927,
+          "lower_bound": -2983.0249999999996,
+          "upper_bound": 5270.375
+        }
+      },
+      "ACTUAL_COST": {
+        "min": 0.0,
+        "p25": 105.76605,
+        "median": 483.2992,
+        "p75": 2027.77958,
+        "max": 2829959.0218300004,
+        "iqr_outliers": {
+          "count": 476973,
+          "pct": 12.899,
+          "lower_bound": -2777.2542449999996,
+          "upper_bound": 4910.799875
+        }
+      },
+      "GenericShortage": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 1.0,
+        "iqr_outliers": {
+          "count": 165105,
+          "pct": 4.465,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0
+        }
+      }
+    },
+    "cardinality": {
+      "YEAR_MONTH": 29,
+      "REGION_NAME": 8,
+      "REGION_CODE": 8,
+      "ICB_NAME": 43,
+      "ICB_CODE": 43,
+      "VMP_AMP": 6813,
+      "VMP_AMP_TYPE": 1,
+      "QUANTITY": 108256,
+      "ITEMS": 34448,
+      "TOTAL_QUANTITY": 255369,
+      "NIC": 1027009,
+      "ACTUAL_COST": 3250497,
+      "GenericShortage": 2
+    },
+    "constant_columns": [
+      "VMP_AMP_TYPE"
+    ]
+  },
+  "pca": {
+    "shape": {
+      "rows": 2348373,
+      "cols": 13
+    },
+    "memory_mb": 846.23,
+    "expected_columns_missing": [],
+    "dtypes_summary": {
+      "object": 5,
+      "float64": 5,
+      "int64": 3
+    },
+    "missing_values": {},
+    "missing_pct": {},
+    "duplicate_report": {
+      "row_duplicates": 0,
+      "key_present": true,
+      "key_duplicate_rows": 0,
+      "key_unique_ok": true
+    },
+    "datetime_parse": {
+      "YEAR_MONTH": {
+        "present": true,
+        "parsed_ok_pct": 100.0,
+        "bad_examples": []
+      }
+    },
+    "non_negative": {
+      "QUANTITY": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 2348373,
+        "nan_count": 0
+      },
+      "ITEMS": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 0,
+        "nan_count": 0
+      },
+      "TOTAL_QUANTITY": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 0,
+        "nan_count": 0
+      },
+      "NIC": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 3,
+        "nan_count": 0
+      },
+      "ACTUAL_COST": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 2348373,
+        "nan_count": 0
+      }
+    },
+    "categorical_rules": {
+      "VMP_AMP_TYPE": {
+        "present": true,
+        "unique_count": 1,
+        "unknown_values": [],
+        "unknown_count": 0
+      },
+      "GenericShortage": {
+        "present": true,
+        "unique_count": 2,
+        "unknown_values": [],
+        "unknown_count": 0
+      }
+    },
+    "numeric_profile": {
+      "YEAR_MONTH": {
+        "min": 202301.0,
+        "p25": 202308.0,
+        "median": 202403.0,
+        "p75": 202411.0,
+        "max": 202505.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": 202153.5,
+          "upper_bound": 202565.5
+        }
+      },
+      "VMP_AMP": {
+        "min": 72171000001103.0,
+        "p25": 1.9900211000001104e+16,
+        "median": 3.97316110000011e+16,
+        "p75": 4.21268110000011e+16,
+        "max": 4.45462110000011e+16,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": -1.3439688999998896e+16,
+          "upper_bound": 7.54667110000011e+16
+        }
+      },
+      "QUANTITY": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0
+        }
+      },
+      "ITEMS": {
+        "min": 1.0,
+        "p25": 5.0,
+        "median": 37.0,
+        "p75": 286.0,
+        "max": 241227.0,
+        "iqr_outliers": {
+          "count": 371373,
+          "pct": 15.814,
+          "lower_bound": -416.5,
+          "upper_bound": 707.5
+        }
+      },
+      "TOTAL_QUANTITY": {
+        "min": 0.5,
+        "p25": 300.0,
+        "median": 1932.0,
+        "p75": 13844.0,
+        "max": 15434297.0,
+        "iqr_outliers": {
+          "count": 375741,
+          "pct": 16.0,
+          "lower_bound": -20016.0,
+          "upper_bound": 34160.0
+        }
+      },
+      "NIC": {
+        "min": 0.0,
+        "p25": 170.0,
+        "median": 752.0,
+        "p75": 2894.3,
+        "max": 3159243.0,
+        "iqr_outliers": {
+          "count": 286784,
+          "pct": 12.212,
+          "lower_bound": -3916.4500000000003,
+          "upper_bound": 6980.75
+        }
+      },
+      "ACTUAL_COST": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0
+        }
+      },
+      "GenericShortage": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 1.0,
+        "iqr_outliers": {
+          "count": 155517,
+          "pct": 6.622,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0
+        }
+      }
+    },
+    "cardinality": {
+      "YEAR_MONTH": 28,
+      "REGION_NAME": 7,
+      "REGION_CODE": 7,
+      "ICB_NAME": 42,
+      "ICB_CODE": 42,
+      "VMP_AMP": 4797,
+      "VMP_AMP_TYPE": 1,
+      "QUANTITY": 1,
+      "ITEMS": 33879,
+      "TOTAL_QUANTITY": 243703,
+      "NIC": 783854,
+      "ACTUAL_COST": 1,
+      "GenericShortage": 2
+    },
+    "constant_columns": [
+      "VMP_AMP_TYPE",
+      "QUANTITY",
+      "ACTUAL_COST"
+    ]
+  },
+  "scmd": {
+    "shape": {
+      "rows": 3488893,
+      "cols": 13
+    },
+    "memory_mb": 1225.64,
+    "expected_columns_missing": [],
+    "dtypes_summary": {
+      "object": 5,
+      "float64": 5,
+      "int64": 3
+    },
+    "missing_values": {},
+    "missing_pct": {},
+    "duplicate_report": {
+      "row_duplicates": 0,
+      "key_present": true,
+      "key_duplicate_rows": 0,
+      "key_unique_ok": true
+    },
+    "datetime_parse": {
+      "YEAR_MONTH": {
+        "present": true,
+        "parsed_ok_pct": 100.0,
+        "bad_examples": []
+      }
+    },
+    "non_negative": {
+      "QUANTITY": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 3488893,
+        "nan_count": 0
+      },
+      "ITEMS": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 3488893,
+        "nan_count": 0
+      },
+      "TOTAL_QUANTITY": {
+        "present": true,
+        "neg_count": 20680,
+        "zero_count": 1517,
+        "nan_count": 0
+      },
+      "NIC": {
+        "present": true,
+        "neg_count": 0,
+        "zero_count": 3488893,
+        "nan_count": 0
+      },
+      "ACTUAL_COST": {
+        "present": true,
+        "neg_count": 20521,
+        "zero_count": 36614,
+        "nan_count": 0
+      }
+    },
+    "categorical_rules": {
+      "VMP_AMP_TYPE": {
+        "present": true,
+        "unique_count": 1,
+        "unknown_values": [],
+        "unknown_count": 0
+      },
+      "GenericShortage": {
+        "present": true,
+        "unique_count": 2,
+        "unknown_values": [],
+        "unknown_count": 0
+      }
+    },
+    "numeric_profile": {
+      "YEAR_MONTH": {
+        "min": 202301.0,
+        "p25": 202308.0,
+        "median": 202403.0,
+        "p75": 202410.0,
+        "max": 202505.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": 202155.0,
+          "upper_bound": 202563.0
+        }
+      },
+      "VMP_AMP": {
+        "min": 329574003.0,
+        "p25": 1.9432111000001108e+16,
+        "median": 3.61203110000011e+16,
+        "p75": 4.19422110000011e+16,
+        "max": 4.494181100000111e+16,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": -1.4333038999998884e+16,
+          "upper_bound": 7.570736100000109e+16
+        }
+      },
+      "QUANTITY": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0
+        }
+      },
+      "ITEMS": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0
+        }
+      },
+      "TOTAL_QUANTITY": {
+        "min": -7734500.0,
+        "p25": 84.0,
+        "median": 400.0,
+        "p75": 2034.0,
+        "max": 500025123.5,
+        "iqr_outliers": {
+          "count": 523254,
+          "pct": 14.998,
+          "lower_bound": -2841.0,
+          "upper_bound": 4959.0
+        }
+      },
+      "NIC": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0
+        }
+      },
+      "ACTUAL_COST": {
+        "min": -4938100.0,
+        "p25": 61.59,
+        "median": 320.0,
+        "p75": 2003.08,
+        "max": 8731938731.68,
+        "iqr_outliers": {
+          "count": 572413,
+          "pct": 16.407,
+          "lower_bound": -2850.645,
+          "upper_bound": 4915.3150000000005
+        }
+      },
+      "GenericShortage": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 1.0,
+        "iqr_outliers": {
+          "count": 145312,
+          "pct": 4.165,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0
+        }
+      }
+    },
+    "cardinality": {
+      "YEAR_MONTH": 29,
+      "REGION_NAME": 7,
+      "REGION_CODE": 7,
+      "ICB_NAME": 42,
+      "ICB_CODE": 42,
+      "VMP_AMP": 7718,
+      "VMP_AMP_TYPE": 1,
+      "QUANTITY": 1,
+      "ITEMS": 1,
+      "TOTAL_QUANTITY": 117394,
+      "NIC": 1,
+      "ACTUAL_COST": 670822,
+      "GenericShortage": 2
+    },
+    "constant_columns": [
+      "VMP_AMP_TYPE",
+      "QUANTITY",
+      "ITEMS",
+      "NIC"
+    ]
+  },
+  "map": {
+    "shape": {
+      "rows": 33206,
+      "cols": 17
+    },
+    "memory_mb": 25.74,
+    "expected_columns_missing": [],
+    "dtypes_summary": {
+      "object": 11,
+      "float64": 5,
+      "int64": 1
+    },
+    "missing_values": {
+      "BNF_PRESENTATION_CODE": 33206,
+      "BNF_PRESENTATION": 18,
+      "YEAR_MONTH": 18,
+      "BNF_CHAPTER": 18,
+      "BNF_CHAPTER_CODE": 18,
+      "BNF_SECTION": 18,
+      "BNF_SECTION_CODE": 18,
+      "BNF_PARAGRAPH": 18,
+      "BNF_PARAGRAPH_CODE": 18,
+      "BNF_SUBPARAGRAPH": 18,
+      "BNF_SUBPARAGRAPH_CODE": 18,
+      "BNF_CHEMICAL_SUBSTANCE": 18,
+      "BNF_CHEMICAL_SUBSTANCE_CODE": 18,
+      "ProductCode": 18
+    },
+    "missing_pct": {
+      "BNF_PRESENTATION_CODE": 100.0,
+      "BNF_PRESENTATION": 0.05,
+      "YEAR_MONTH": 0.05,
+      "BNF_CHAPTER": 0.05,
+      "BNF_CHAPTER_CODE": 0.05,
+      "BNF_SECTION": 0.05,
+      "BNF_SECTION_CODE": 0.05,
+      "BNF_PARAGRAPH": 0.05,
+      "BNF_PARAGRAPH_CODE": 0.05,
+      "BNF_SUBPARAGRAPH": 0.05,
+      "BNF_SUBPARAGRAPH_CODE": 0.05,
+      "BNF_CHEMICAL_SUBSTANCE": 0.05,
+      "BNF_CHEMICAL_SUBSTANCE_CODE": 0.05,
+      "ProductCode": 0.05
+    },
+    "duplicate_report": {
+      "row_duplicates": 0,
+      "key_present": true,
+      "key_duplicate_rows": 0,
+      "key_unique_ok": true
+    },
+    "datetime_parse": {
+      "YEAR_MONTH": {
+        "present": true,
+        "parsed_ok_pct": 100.0,
+        "bad_examples": []
+      }
+    },
+    "non_negative": {},
+    "categorical_rules": {
+      "VMP_AMP_TYPE": {
+        "present": true,
+        "unique_count": 2,
+        "unknown_values": [],
+        "unknown_count": 0
+      }
+    },
+    "numeric_profile": {
+      "VMP_AMP": {
+        "min": 329574003.0,
+        "p25": 1.00589110000011e+16,
+        "median": 2.1631611000001108e+16,
+        "p75": 3.60401860000011e+16,
+        "max": 4.515171100000111e+16,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": -2.8913001499998908e+16,
+          "upper_bound": 7.501209850000112e+16
+        }
+      },
+      "BNF_CHAPTER_CODE": {
+        "min": 1.0,
+        "p25": 6.0,
+        "median": 13.0,
+        "p75": 21.0,
+        "max": 23.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": -16.5,
+          "upper_bound": 43.5
+        }
+      },
+      "BNF_SECTION_CODE": {
+        "min": 101.0,
+        "p25": 604.0,
+        "median": 1312.0,
+        "p75": 2127.0,
+        "max": 2399.0,
+        "iqr_outliers": {
+          "count": 0,
+          "pct": 0.0,
+          "lower_bound": -1680.5,
+          "upper_bound": 4411.5
+        }
+      },
+      "BNF_PARAGRAPH_CODE": {
+        "min": 2001.0,
+        "p25": 2230.0,
+        "median": 10604.0,
+        "p75": 70305.0,
+        "max": 191402.0,
+        "iqr_outliers": {
+          "count": 163,
+          "pct": 0.491,
+          "lower_bound": -99882.5,
+          "upper_bound": 172417.5
+        }
+      },
+      "BNF_SUBPARAGRAPH_CODE": {
+        "min": 2001.0,
+        "p25": 2230.0,
+        "median": 106040.0,
+        "p75": 703050.0,
+        "max": 1914020.0,
+        "iqr_outliers": {
+          "count": 163,
+          "pct": 0.491,
+          "lower_bound": -1049000.0,
+          "upper_bound": 1754280.0
+        }
+      }
+    },
+    "cardinality": {
+      "VMP_AMP": 33206,
+      "VMP_AMP_TYPE": 2,
+      "BNFCode": 32991,
+      "BNF_PRESENTATION_CODE": 0,
+      "BNF_PRESENTATION": 32972,
+      "YEAR_MONTH": 1,
+      "BNF_CHAPTER": 21,
+      "BNF_CHAPTER_CODE": 21,
+      "BNF_SECTION": 212,
+      "BNF_SECTION_CODE": 212,
+      "BNF_PARAGRAPH": 467,
+      "BNF_PARAGRAPH_CODE": 474,
+      "BNF_SUBPARAGRAPH": 571,
+      "BNF_SUBPARAGRAPH_CODE": 577,
+      "BNF_CHEMICAL_SUBSTANCE": 2300,
+      "BNF_CHEMICAL_SUBSTANCE_CODE": 2521,
+      "ProductCode": 32972
+    },
+    "constant_columns": [
+      "BNF_PRESENTATION_CODE"
+    ]
+  },
+  "_cross_dataset": {
+    "coverage_epd_vs_map": {
+      "unique_codes": 6813,
+      "unmatched_codes": 54,
+      "unmatched_pct": 0.79,
+      "sample_unmatched": [
+        "35908211000001104",
+        "42427711000001102",
+        "4558111000001102",
+        "29004511000001105",
+        "14696811000001107",
+        "40891911000001104",
+        "42288111000001106",
+        "42978711000001102",
+        "41739411000001106",
+        "8029711000001107"
+      ]
+    },
+    "coverage_pca_vs_map": {
+      "unique_codes": 4797,
+      "unmatched_codes": 0,
+      "unmatched_pct": 0.0,
+      "sample_unmatched": []
+    },
+    "coverage_scmd_vs_map": {
+      "unique_codes": 7718,
+      "unmatched_codes": 0,
+      "unmatched_pct": 0.0,
+      "sample_unmatched": []
+    },
+    "type_consistency_epd": {
+      "in_src": 6813,
+      "in_map": 33206,
+      "intersection": 6759,
+      "consistency_pct": 99.21
+    },
+    "type_consistency_pca": {
+      "in_src": 4797,
+      "in_map": 33206,
+      "intersection": 4797,
+      "consistency_pct": 100.0
+    },
+    "type_consistency_scmd": {
+      "in_src": 7718,
+      "in_map": 33206,
+      "intersection": 7718,
+      "consistency_pct": 100.0
+    },
+    "coherence_epd": {
+      "QUANTITY_neg_count": 0,
+      "ITEMS_neg_count": 0,
+      "TOTAL_QUANTITY_neg_count": 0,
+      "NIC_neg_count": 0,
+      "ACTUAL_COST_neg_count": 0,
+      "total_lt_quantity_count": 0,
+      "total_lt_quantity_pct": 0.0
+    },
+    "coherence_pca": {
+      "QUANTITY_neg_count": 0,
+      "ITEMS_neg_count": 0,
+      "TOTAL_QUANTITY_neg_count": 0,
+      "NIC_neg_count": 0,
+      "ACTUAL_COST_neg_count": 0,
+      "total_lt_quantity_count": 0,
+      "total_lt_quantity_pct": 0.0
+    },
+    "coherence_scmd": {
+      "QUANTITY_neg_count": 0,
+      "ITEMS_neg_count": 0,
+      "TOTAL_QUANTITY_neg_count": 20680,
+      "NIC_neg_count": 0,
+      "ACTUAL_COST_neg_count": 20521,
+      "total_lt_quantity_count": 20680,
+      "total_lt_quantity_pct": 0.5927
+    }
+  }
+}

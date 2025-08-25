@@ -1,0 +1,46 @@
+
+=== EPD_ActualCost ===
+
+RandomForest:
+  n_estimators: 600
+  max_depth: 5
+  min_samples_split: 2
+  min_samples_leaf: 1
+  max_features: 0.7
+  bootstrap: True
+  max_leaf_nodes: 97
+  min_impurity_decrease: 0.029108095682940687
+
+GradientBoosting:
+  n_estimators: 450
+  max_depth: 8
+  learning_rate: 0.291410380369133
+  subsample: 0.9577393372972944
+  min_samples_split: 6
+  min_samples_leaf: 3
+  max_features: 0.9
+  alpha: 0.8972804325530137
+  min_impurity_decrease: 0.06419035762829806
+
+=== PCA_NIC ===
+
+RandomForest:
+  n_estimators: 1000
+  max_depth: 23
+  min_samples_split: 4
+  min_samples_leaf: 2
+  max_features: 0.3
+  bootstrap: False
+  max_leaf_nodes: 252
+  min_impurity_decrease: 0.0029814710333205888
+
+GradientBoosting:
+  n_estimators: 250
+  max_depth: 6
+  learning_rate: 0.03142216766416466
+  subsample: 0.8810351294531992
+  min_samples_split: 3
+  min_samples_leaf: 2
+  max_features: sqrt
+  alpha: 0.10502760267500139
+  min_impurity_decrease: 0.0007009087709048539
